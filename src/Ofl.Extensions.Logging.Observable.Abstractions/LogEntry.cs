@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Ofl.Extensions.Logging.Observable
 {
-    public class LogEntry
+    public readonly struct LogEntry
     {
         #region Constructor
 
